@@ -8,6 +8,7 @@ export default defineConfig({
   webServer: {
     command: 'npm start',
     url: baseURL,
+    reuseExistingServer: true,
   },
   use: {
     baseURL,
