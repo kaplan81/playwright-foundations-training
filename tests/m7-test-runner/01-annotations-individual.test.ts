@@ -5,6 +5,9 @@ import { expect, test } from '@playwright/test';
  * will be skipped.
  *
  * test.skip();
+ *
+ * So this would not be an individual annotation
+ * but a top level one.
  */
 
 test.skip('Will not run', async ({ page }) => {
