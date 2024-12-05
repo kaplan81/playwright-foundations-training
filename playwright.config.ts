@@ -4,6 +4,7 @@ const baseURL = 'http://localhost:3000/';
 
 export default defineConfig({
   testDir: './tests',
+  fullyParallel: true,
   reporter: 'html',
   webServer: {
     command: 'npm start',

@@ -8,7 +8,13 @@ import { expect, test } from '@playwright/test';
  *
  * The amount of workers defaults to half of the number of logical CPU cores.
  *
- * Meaning the initial setup will run several times maybe:
+ * We can also set this configuration:
+ *
+ * fullyParallel: true,
+ *
+ * That way each test of each file will run in a separate worker.
+ *
+ * If so, the initial setup will run several times maybe:
  *
  * Once for each root test.
  *
