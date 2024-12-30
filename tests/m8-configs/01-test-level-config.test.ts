@@ -5,7 +5,7 @@ import { Browser, BrowserContext, Page, test } from '@playwright/test';
  * depending on browsers.
  *
  * However, you will most likely not use this feature
- * because you an import the browsers also from '@playwright/test'.
+ * because you can import the browsers also from '@playwright/test'.
  */
 test('Top Level Firefox', async ({ playwright }) => {
   const firefoxBrowser: Browser = await playwright.firefox.launch();
