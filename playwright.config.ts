@@ -70,7 +70,7 @@ export default defineConfig({
        * This would be for global setup.
        *
        * We could specify several dependencies but
-       * notice that they shoudl not be interdependent
+       * notice that they should not be interdependent
        * because Playwright does not run them
        * in the order of the array.
        */

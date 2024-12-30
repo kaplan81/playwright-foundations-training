@@ -28,7 +28,7 @@ test('Request / Response', async ({ page }) => {
   console.log(await response.body());
   console.log(await response.text());
   /**
-   * This will throw an error because HTML is not pasable to json.
+   * This will throw an error because HTML is not parsable to json.
    */
   // console.log(await response.json());
 

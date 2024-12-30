@@ -5,6 +5,8 @@ test.use({ headless: false });
 /**
  * If we have several projects, this test will run
  * as many times as projects we have.
+ *
+ * Check `playwright.config.ts`
  */
 test('Test 1', async ({ page }) => {
   await page.goto('');
